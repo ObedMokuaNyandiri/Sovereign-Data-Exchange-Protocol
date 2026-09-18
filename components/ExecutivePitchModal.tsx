@@ -14,6 +14,9 @@ import {
   Lock,
   ArrowRight,
   TrendingDown,
+  Database,
+  Activity,
+  Key,
 } from 'lucide-react';
 
 interface ExecutivePitchModalProps {
@@ -110,41 +113,41 @@ This architecture resolves the trade-off between inter-ministerial collaboration
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
             <div className="p-3.5 bg-slate-950 border border-slate-800 rounded-xl">
               <div className="flex items-center space-x-2 text-emerald-400 font-semibold mb-1">
-                <TrendingDown className="w-4 h-4" />
-                <span>$0/Month Operational Stack</span>
+                <Database className="w-4 h-4" />
+                <span>Absolute Data Sovereignty</span>
               </div>
               <p className="text-slate-400 text-[11px] leading-normal">
-                Runs entirely on Vercel Free Tier (Next.js App Router) and Supabase PostgreSQL Free Tier. Zero procurement friction or vendor lock-in.
+                Agencies retain complete physical and logical custody of their citizen data. Eliminates centralized data lakes and structural honey-pots.
               </p>
             </div>
 
             <div className="p-3.5 bg-slate-950 border border-slate-800 rounded-xl">
               <div className="flex items-center space-x-2 text-cyan-400 font-semibold mb-1">
-                <Lock className="w-4 h-4" />
-                <span>Zero Honey-Pot Risk</span>
+                <ShieldCheck className="w-4 h-4" />
+                <span>Privacy-Preserving Verification</span>
               </div>
               <p className="text-slate-400 text-[11px] leading-normal">
-                Eliminates monolithic cross-ministry data lakes. KRA, Lands, Police, and Health retain 100% stewardship of their isolated tables.
+                Information exchange is strictly limited to cryptographic boolean proofs. Validates truth across ministries without exposing raw records.
               </p>
             </div>
 
             <div className="p-3.5 bg-slate-950 border border-slate-800 rounded-xl">
               <div className="flex items-center space-x-2 text-amber-400 font-semibold mb-1">
-                <ShieldCheck className="w-4 h-4" />
-                <span>Data Protection Act, 2019</span>
+                <Activity className="w-4 h-4" />
+                <span>Tamper-Evident Audit Trails</span>
               </div>
               <p className="text-slate-400 text-[11px] leading-normal">
-                Guarantees Purpose Limitation and Data Minimisation. Only mathematical boolean proofs are shared, never raw citizen salary or medical records.
+                Every inter-agency query is cryptographically logged on an immutable ledger, ensuring absolute accountability and transparency.
               </p>
             </div>
 
             <div className="p-3.5 bg-slate-950 border border-slate-800 rounded-xl">
-              <div className="flex items-center space-x-2 text-emerald-400 font-semibold mb-1">
-                <Zap className="w-4 h-4" />
-                <span>Sub-20ms Performance</span>
+              <div className="flex items-center space-x-2 text-indigo-400 font-semibold mb-1">
+                <Key className="w-4 h-4" />
+                <span>Granular Access Control</span>
               </div>
               <p className="text-slate-400 text-[11px] leading-normal">
-                PostgreSQL SECURITY DEFINER functions execute logic directly in database memory, returning signed HMAC-SHA256 proofs in ~12 milliseconds.
+                Strict Role-Level Security (RLS) ensures that data verification is exclusively accessible to authorized cryptographic identities.
               </p>
             </div>
           </div>
