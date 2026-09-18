@@ -127,10 +127,8 @@ export function UseCaseSelector({ activeUseCaseId, onSelectUseCase }: UseCaseSel
     <section id="sdep-use-cases-container" aria-labelledby="scenario-heading" className="space-y-3">
       <div className="flex flex-wrap items-end justify-between gap-2">
         <div>
-          <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-[var(--sdep-teal)]">Choose a verification question</p>
-          <h2 id="scenario-heading" className="mt-1 text-xl font-semibold text-[var(--sdep-text)]">What should SDEP verify?</h2>
+          <h2 id="scenario-heading" className="mt-1 text-xl font-semibold text-[var(--sdep-text)]">Select Verification Scenario</h2>
         </div>
-        <p className="max-w-sm text-right text-xs text-[var(--sdep-text-muted)]">Each scenario returns an answer without transferring the protected source record.</p>
       </div>
 
       <div className="grid gap-2 md:grid-cols-2 xl:grid-cols-5">

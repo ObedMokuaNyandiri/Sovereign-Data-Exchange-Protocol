@@ -136,9 +136,6 @@ export function AuditLedger({ logs, onRefresh, isLoading }: AuditLedgerProps) {
               HASH-CHAIN VERIFIED
             </span>
           </div>
-          <p className="text-xs text-slate-400 mt-0.5">
-            Append-only cryptographic proofs &bull; Zero citizen personal data stored
-          </p>
         </div>
 
         <div className="flex items-center space-x-2">
