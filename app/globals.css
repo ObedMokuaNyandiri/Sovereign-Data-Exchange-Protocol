@@ -1,0 +1,68 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+:root {
+	--sdep-ink: #071018;
+	--sdep-ink-soft: #0c1720;
+	--sdep-surface: #10212a;
+	--sdep-surface-raised: #142b35;
+	--sdep-border: #29414a;
+	--sdep-border-strong: #3d5d67;
+	--sdep-text: #edf6f4;
+	--sdep-text-muted: #9ab0b4;
+	--sdep-text-subtle: #6f888e;
+	--sdep-teal: #4ed6c1;
+	--sdep-teal-strong: #1aa891;
+	--sdep-blue: #73b9e6;
+	--sdep-success: #70d6a7;
+	--sdep-warning: #f0c36d;
+	--sdep-danger: #f08383;
+}
+
+* {
+	border-color: var(--sdep-border);
+}
+
+html {
+	background: var(--sdep-ink);
+}
+
+body {
+	background:
+		radial-gradient(circle at 70% -10%, rgba(32, 104, 103, 0.18), transparent 32rem),
+		linear-gradient(135deg, #061018 0%, #08141b 45%, #071018 100%);
+	color: var(--sdep-text);
+	font-family: Georgia, 'Times New Roman', serif;
+}
+
+button,
+input,
+select,
+textarea {
+	font: inherit;
+}
+
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+[role='tab']:focus-visible {
+	outline: 2px solid var(--sdep-teal);
+	outline-offset: 2px;
+}
+
+::selection {
+	background: rgba(78, 214, 193, 0.3);
+	color: var(--sdep-text);
+}
+
+@media (prefers-reduced-motion: reduce) {
+	*,
+	*::before,
+	*::after {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		scroll-behavior: auto !important;
+		transition-duration: 0.01ms !important;
+	}
+}

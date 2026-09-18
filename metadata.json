@@ -1,0 +1,6 @@
+{
+  "name": "Sovereign Data Exchange Protocol",
+  "description": "Inter-Ministerial Zero-Knowledge Verification Platform (SDEP)",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
