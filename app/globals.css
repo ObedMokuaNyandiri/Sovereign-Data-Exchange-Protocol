@@ -2,21 +2,21 @@
 @import "tw-animate-css";
 
 :root {
-	--sdep-ink: #071018;
-	--sdep-ink-soft: #0c1720;
-	--sdep-surface: #10212a;
-	--sdep-surface-raised: #142b35;
-	--sdep-border: #29414a;
-	--sdep-border-strong: #3d5d67;
-	--sdep-text: #edf6f4;
-	--sdep-text-muted: #9ab0b4;
-	--sdep-text-subtle: #6f888e;
-	--sdep-teal: #4ed6c1;
-	--sdep-teal-strong: #1aa891;
-	--sdep-blue: #73b9e6;
-	--sdep-success: #70d6a7;
-	--sdep-warning: #f0c36d;
-	--sdep-danger: #f08383;
+	--sdep-ink: #0b1120;
+	--sdep-ink-soft: #0f172a;
+	--sdep-surface: #1e293b;
+	--sdep-surface-raised: #334155;
+	--sdep-border: #334155;
+	--sdep-border-strong: #475569;
+	--sdep-text: #f8fafc;
+	--sdep-text-muted: #cbd5e1;
+	--sdep-text-subtle: #94a3b8;
+	--sdep-teal: #38bdf8;
+	--sdep-teal-strong: #0284c7;
+	--sdep-blue: #818cf8;
+	--sdep-success: #10b981;
+	--sdep-warning: #f59e0b;
+	--sdep-danger: #ef4444;
 }
 
 * {
@@ -28,11 +28,9 @@ html {
 }
 
 body {
-	background:
-		radial-gradient(circle at 70% -10%, rgba(32, 104, 103, 0.18), transparent 32rem),
-		linear-gradient(135deg, #061018 0%, #08141b 45%, #071018 100%);
+	background: linear-gradient(145deg, var(--sdep-ink) 0%, var(--sdep-ink-soft) 100%);
 	color: var(--sdep-text);
-	font-family: Georgia, 'Times New Roman', serif;
+	font-family: var(--font-inter), sans-serif;
 }
 
 button,

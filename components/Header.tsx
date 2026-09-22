@@ -17,7 +17,7 @@ export function Header({
   onOpenSchema,
 }: HeaderProps) {
   return (
-    <header id="sdep-header-nav" className="sticky top-0 z-40 border-b border-[var(--sdep-border)] bg-[rgba(7,16,24,0.94)] backdrop-blur-md">
+    <header id="sdep-header-nav" className="sticky top-0 z-40 border-b border-[var(--sdep-border)] bg-[rgba(11,17,32,0.94)] backdrop-blur-md">
       <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-4 px-4 py-3 sm:px-6 lg:px-8">
         <div className="flex items-center gap-3">
           <div className="hidden h-9 w-1 overflow-hidden rounded-full sm:flex sm:flex-col">
@@ -25,7 +25,7 @@ export function Header({
             <span className="flex-1 bg-[#b91c1c]" />
             <span className="flex-1 bg-[#15803d]" />
           </div>
-          <div className="flex h-9 w-9 items-center justify-center rounded-xl border border-[var(--sdep-teal-strong)] bg-[rgba(78,214,193,0.12)] text-[var(--sdep-teal)]">
+          <div className="flex h-9 w-9 items-center justify-center rounded-xl border border-[var(--sdep-teal-strong)] bg-[rgba(56,189,248,0.12)] text-[var(--sdep-teal)]">
             <ShieldCheck className="h-5 w-5" />
           </div>
           <div>
@@ -52,7 +52,7 @@ export function Header({
             type="button"
             id="btn-open-pitch"
             onClick={onOpenPitch}
-            className="flex items-center gap-1.5 rounded-lg bg-[var(--sdep-teal-strong)] px-3 py-2 text-xs font-semibold text-[#04100e] transition hover:bg-[var(--sdep-teal)]"
+            className="flex items-center gap-1.5 rounded-lg bg-[var(--sdep-teal-strong)] px-3 py-2 text-xs font-semibold text-[#f8fafc] transition hover:bg-[#38bdf8]"
           >
             <FileText className="h-3.5 w-3.5" />
             <span className="hidden sm:inline">Executive briefing</span>
