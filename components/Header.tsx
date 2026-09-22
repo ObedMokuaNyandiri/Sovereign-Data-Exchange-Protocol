@@ -31,7 +31,6 @@ export function Header({
           <div>
             <div className="flex items-center gap-2">
               <h1 className="text-base font-semibold tracking-[0.12em] text-[var(--sdep-text)]">SDEP</h1>
-              <span className="rounded-full border border-[var(--sdep-border-strong)] px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider text-[var(--sdep-text-subtle)]">Official simulation</span>
             </div>
             <p className="text-xs text-[var(--sdep-text-muted)]">Sovereign Data Exchange Protocol</p>
           </div>
